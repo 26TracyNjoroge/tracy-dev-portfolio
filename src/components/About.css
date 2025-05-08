@@ -47,11 +47,12 @@
 
 @media (max-width: 992px) {
     .About {
+        height: auto;
         padding-top: 0;
         margin-top: 0;
         grid-template-columns: 1fr;
         padding-top: 20px;
-        width: 86%;
+        width: 88%;
     }
 
     .About .About-image {
@@ -70,7 +71,6 @@
         margin-top: 0;
         grid-template-columns: 1fr;
         padding-top: 20px;
-        width: 84%;
     }
 
     .About .About-bio {

@@ -51,6 +51,10 @@
 
 
 @media (max-width: 992px) {
+    .Hero {
+        height: auto;
+    }
+
     .Hero .Hero-child {
         max-width: 100%;
     }
@@ -68,6 +72,7 @@
 
     .Hero .Hero-resume {
         margin-top: 34px;
+        margin-bottom: 62px;
         font-size: 1rem;
         letter-spacing: 2px;
     }

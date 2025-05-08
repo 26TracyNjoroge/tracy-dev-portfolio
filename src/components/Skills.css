@@ -36,3 +36,32 @@
     margin-bottom: 54px;
     text-align: center;
 }
+
+@media (max-width: 992px) {
+    .Skills {
+        padding: 10px;
+        height: auto;
+        padding-top: 96px;
+    }
+
+    .Skills .Skills-heading {
+        margin-left: 10px; 
+        padding-left: 10px;
+    }
+
+    .Skills h3 {
+        font-size: 1.5rem;
+    }
+    
+    .Skills p {
+        font-size: 1rem;
+    
+    }
+
+    .Skills-sect {
+        padding-top: 38px;
+        max-width: 88%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

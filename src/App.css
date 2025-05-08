@@ -25,7 +25,7 @@ img {
 }
 
 body {
-   /* background-image: url(../src/assets/images/portfoliobckg.jpg); */
+   background-image: url(../src/images/portfoliobckg.jpg);
    background-size: cover;
    background-attachment: fixed;
    font-family: 'Inter', sans-serif;

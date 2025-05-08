@@ -1,0 +1,45 @@
+.Contact {
+    height: 100vh;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 98px 50px 50px 50px;
+    text-align: center;
+}
+
+.Contact h2 {
+    font-size: 2.3rem;
+}
+
+.Contact P {
+    max-width: 80%;
+    margin: 16px auto;
+    padding-bottom: 24px;
+}
+
+.Contact .Contact-email-link {
+    padding: 14px 22px;
+    font-size: 0.86rem;
+    background-color: transparent;
+    border: 1px solid #fdf6f6;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 3px;
+    transition: all 0.3s ease; 
+}
+
+.Contact .Contact-email-link:hover {
+    cursor: pointer;
+    box-shadow: rgb(163, 159, 159) 4px 4px 4px;
+    transform: translate(-3px, -3px);
+
+}
+
+.Contact h3 {
+    margin: 68px 0;
+    font-size: 1.5rem;
+}
+
+.Contact .Contact-link{
+    margin-top: 46px;
+}
+

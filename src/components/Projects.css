@@ -1,0 +1,103 @@
+.Projects {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 98px 50px 50px 50px;
+}
+
+.Projects .Projects-sect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 96px;
+    padding-bottom: 20px;
+}
+
+.Projects h3 {
+    margin-bottom: 46px;
+    font-size: 1.7rem;
+}
+
+.Projects .Projects-image {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-top: 12px;
+    filter: grayscale(85%);
+    transition: filter 0.25s ease, transform 350ms ease; 
+}
+
+.Projects .Projects-image:hover {
+    transform: scale(1.01);
+    filter: grayscale(0%);
+}
+
+.Projects h4 {
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.Projects .Project-description-right {
+    text-align: right;
+}
+
+.Projects ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+
+.Projects ul li {
+    margin-top: 22px;
+    border-radius: 20px;
+    background-color: rgb(90, 88, 88);
+    margin-left: 10px;
+    padding: 3px;
+    font-size: 0.86rem;
+    opacity: 0.8;
+}
+
+.Projects .Links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Projects .Project-link-right {
+    margin-top: 22px;
+    border: 1px solid rgb(179, 173, 173);
+    margin-left: 52px;
+    padding: 9px;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: all 0.3s ease; 
+}
+
+
+.Projects .Project-link {
+    margin-top: 22px;
+    border: 1px solid rgb(179, 173, 173);
+    margin-right: 52px;
+    padding: 9px;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: all 0.3s ease; 
+}
+
+.Projects .Project-link:hover,
+.Projects .Project-link-right:hover {
+    cursor: pointer;
+    box-shadow: rgb(163, 159, 159) 4px 4px 4px;
+    transform: translate(-3px, -3px);
+}
+
+.Projects p {
+    padding: 8px;
+    opacity: 0.85;
+    border-radius: 2px;
+    transition: 1000ms;
+}
+
+
+.Projects p:hover {
+    background-color: #464646;
+}

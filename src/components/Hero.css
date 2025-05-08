@@ -1,0 +1,113 @@
+.Hero {
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero .Hero-child {
+    max-width: 70%;
+
+}
+
+.Hero .Hero-heading {
+    font-weight: 700;
+}
+
+.Hero .Hero-child h2{
+    font-size: 3.8rem;
+    font-weight: 600px;
+    line-height: 1.1;
+    margin-top: 5px;
+}
+
+.Hero .Hero-child p{
+    max-width: 560px;
+    font-size: 1.1rem;
+    margin: 10px 0px 10px 4px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.Hero .Hero-resume {
+    padding: 14px 26px;
+    font-size: 1.05rem;
+    background-color: transparent;
+    border: 1px solid #fdf6f6;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 22px;
+    transition: all 0.3s ease; 
+
+}
+
+.Hero-resume:hover {
+    cursor: pointer;
+    box-shadow: rgb(163, 159, 159) 4px 4px 4px;
+    transform: translate(-3px, -3px);
+}
+
+
+@media (max-width: 992px) {
+    .Hero .Hero-child {
+        max-width: 100%;
+    }
+
+    .Hero .Hero-child p{
+        font-size: 1.5rem;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .Hero .Hero-child h2{
+        font-size: 3.8rem;
+        line-height: 1.3;
+    }
+
+    .Hero .Hero-resume {
+        margin-top: 34px;
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Hero {
+        display: block;
+        padding: 170px 16px 0 28px;
+    }
+
+    .Hero .Hero-child h2{
+        font-size: 2.02rem;
+    }
+
+    .Hero .Hero-child p{
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+    .Hero .Hero-resume {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .Hero .Hero-child h2{
+        font-size: 1.6em;
+    }
+
+
+    .Hero .Hero-child p{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
+  
+    }
+    
+    

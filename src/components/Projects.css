@@ -31,7 +31,7 @@
 }
 
 .Projects h4 {
-    margin-bottom: 12px;
+    /* margin-bottom: 8px; */
     font-size: 1.2rem;
 }
 
@@ -48,7 +48,7 @@
 
 
 .Projects ul li {
-    margin-top: 22px;
+    margin-top: 12px;
     border-radius: 20px;
     background-color: rgb(90, 88, 88);
     margin-left: 10px;

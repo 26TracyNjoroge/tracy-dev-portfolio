@@ -8,7 +8,7 @@ export default function Hero() {
                 <p className="Hero-heading">Hey there, I'm</p>
                 <h2>Tracy Njoroge,<br/>
                 A Front-end Developer.</h2>
-                <p>I create accessible, intuitive experiences that respond beautifully across all devices. My approach combines technical expertise with design sensibility to craft digital products that are not only visually compelling but also perform seamlessly for every user.</p>
+                <p>I create accessible, intuitive experiences that respond beautifully across all devices. My approach combines technical expertise with design sensibility to craft digital products that perform seamlessly for every user. Transform your ideas into exceptional digital experiences.</p>
                 <button className="Hero-resume">
                     <a href="https://drive.google.com/file/d/1OTqReRXoqQIWRe7MK_WHOsfxNhBX1r_8/view?usp=sharing" target="_blank" rel="noreferrer" title="Tracy Njoroge Resume" >Resume</a>
                 </button>

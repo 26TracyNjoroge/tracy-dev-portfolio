@@ -58,12 +58,16 @@
 }
 
 .Navigation-bar .icons {
-    font-size: 44.8px;
+    font-size: 42px;
     color: #fff;
     cursor: pointer;
     display: none;
     position: absolute;
     right: 5%;
+}
+
+.Navigation-bar .menu-icon {
+    font-size: 48px;
 }
 
 /*Breakpoints*/

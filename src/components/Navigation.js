@@ -1,5 +1,7 @@
 import React from "react";
 import "../components/Navigation.css";
+import { BiMenuAltRight } from "react-icons/bi";
+import { IoClose } from "react-icons/io5";
 
 export default function Navigation() {
     return (
@@ -11,8 +13,8 @@ export default function Navigation() {
 
               <input type="checkbox" id="check"/>
               <label for="check" className="icons">
-                <i className='bx bx-menu-alt-right' id="menu-icon"></i>
-                <i className='bx bx-x' id="close-icon"></i>
+                <BiMenuAltRight id="menu-icon"/>
+                <IoClose id="close-icon"/>
               </label>
               <div className="Navigation-bar-links">
                  <a href="#home" style={{"--i": "0"}} className="nav-link" title="Homepage - Tracy Njoroge">Home</a>

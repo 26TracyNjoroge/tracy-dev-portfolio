@@ -37,12 +37,34 @@
 }
 
 .Contact h3 {
-    /* margin: 68px 0; */
-    margin-top: 50px;
-    font-size: 1.8rem;
+    margin-top: 84px;
+    font-size: 1.7rem;
 }
 
-.Contact .Contact-link{
-    /* margin-top: 46px; */
+.Contact .Contact-links {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
 }
+
+.Contact .social-icons {
+    line-height: 44px;
+    font-size: 1.15rem;
+}
+
+.Contact .icon-wrapper {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+
+.Contact .icon-wrapper:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease; 
+}
+
 

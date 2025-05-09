@@ -24,17 +24,22 @@
     max-width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 
-.Skills-sect .box-icon .bx {
+.Skills-sect .fa-icon .bx {
     font-size: 4rem;
 }
 
-.Skills-sect .box-icon {
+.Skills-sect .fa-icon {
     margin-bottom: 54px;
     text-align: center;
+}
+
+.Skills-sect .skill-icon {
+    font-size: 2.8rem;
+    margin-bottom: 12px;
 }
 
 @media (max-width: 992px) {

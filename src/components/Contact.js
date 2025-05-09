@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/Contact.css";
-
+import { FaGithub, FaLinkedin, FaEnvelope  } from "react-icons/fa";
 
 export default function Contact() {
     return (
@@ -13,7 +13,39 @@ export default function Contact() {
 
             <h3>Connect with me</h3>
             <div className="Contact-links">
-                "HELLO"
+                    <div className="icon-wrapper">
+                        <a
+                            href="https://www.linkedin.com/in/tracynjoroge/"
+                            target="_blank"
+                            rel="noreferrer" 
+                            title="Tracy's LinkedIn Profile"
+                            className="social-icons"
+                            ><FaLinkedin /></a>
+                    </div>
+
+                    <div className="icon-wrapper">
+                    <a
+                        href="https://github.com/26TracyNjoroge"
+                        target="_blank"
+                        rel="noreferrer" 
+                        title="Tracy's GitHub Profile"
+                        className="social-icons"
+                    >
+                        <FaGithub /> 
+                    </a>
+                    </div>
+
+                    <div className="icon-wrapper">
+                    <a
+                        href="mailto:tracywangari997@gmail.com"
+                        target="_blank"
+                        rel="noreferrer" 
+                        title="Tracy's Email"
+                        className="social-icons"
+                    >
+                         <FaEnvelope />
+                    </a>
+                    </div>
             </div>
 
         </div> 

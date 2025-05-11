@@ -31,8 +31,8 @@
 }
 
 .Projects h4 {
-    /* margin-bottom: 8px; */
-    font-size: 1.2rem;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
 }
 
 .Projects .Project-description-right {
@@ -51,15 +51,25 @@
     margin-top: 12px;
     border-radius: 20px;
     background-color: rgb(90, 88, 88);
-    margin-left: 10px;
+    margin-right: 10px;
     padding: 3px;
     font-size: 0.86rem;
     opacity: 0.8;
 }
 
+.Projects .Project-skills-right {
+    margin-bottom: 10px;
+}
+
+.Projects .Project-skills-right li:last-child {
+    margin-right: 0;
+    color: #61dafb; 
+    font-weight: bold;
+}
+
 .Projects .Links {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .Projects .Project-link-right {
@@ -88,16 +98,68 @@
     cursor: pointer;
     box-shadow: rgb(163, 159, 159) 4px 4px 4px;
     transform: translate(-3px, -3px);
+    
 }
 
 .Projects p {
-    padding: 8px;
     opacity: 0.85;
     border-radius: 2px;
     transition: 1000ms;
+    padding: 2px;
 }
 
 
 .Projects p:hover {
     background-color: #464646;
+    border-radius: 3px;
+}
+
+@media (max-width: 992px) {
+    .Projects {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    } 
+}
+
+@media (max-width: 768px) {
+    .Projects {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    }  
+
+    .Projects .Projects-sect {
+        grid-template-columns: 1fr;
+        margin-bottom: 62px;
+    }
+
+    .Projects .Project-description {
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/weatherapp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 22px 16px;
+        border-radius: 4px;
+    }
+
+    .Projects .Project-description-right{
+        text-align: left;
+    }
+
+    .Projects .Projects-image {
+        display: none; 
+    }
+
+    .Projects .Project-link-right {
+        margin-right: 52px;
+        margin-left: 0;
+        font-size: 0.74rem;
+    }
+
+    .Projects .Project-link {
+        font-size: 0.74rem;
+
+    }
+    
 }

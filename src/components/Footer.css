@@ -1,3 +1,7 @@
 .Footer {
     color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
 }

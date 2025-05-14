@@ -4,7 +4,7 @@ import "../components/Footer.css";
 export default function Footer() {
     return (
         <div className="Footer">
-            {/* "Hello from Footer!" */}
+            Designed and Built by Tracy Njoroge
         </div>
     )
 }

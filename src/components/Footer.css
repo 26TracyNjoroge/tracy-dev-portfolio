@@ -6,3 +6,9 @@
     color: white;
     padding: 12px 22px;
 }
+
+@media (max-width: 992px) {
+    .Footer {
+        font-size: 0.65rem;
+    }
+}

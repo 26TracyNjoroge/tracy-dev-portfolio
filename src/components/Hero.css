@@ -7,8 +7,12 @@
 }
 
 .Hero .Hero-child {
-    max-width: 70%;
+    max-width: 90%;
 
+}
+
+.Hero .Hero-heading-effect {
+    color: rgb(209, 204, 204);
 }
 
 .Hero .Hero-heading {
@@ -16,7 +20,7 @@
 }
 
 .Hero .Hero-child h2{
-    font-size: 3.8rem;
+    font-size: 3.01rem;
     font-weight: 600px;
     line-height: 1.1;
     margin-top: 5px;
